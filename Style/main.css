@@ -1,0 +1,158 @@
+:root {
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+  } 
+
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabbed-primary-navigation {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-menu {
+    margin-top: 0px;
+    padding: 0px;
+    display: inline-block;
+    align-items: center;
+}
+
+.menu-logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'arial black', Times;
+    font-size: 40px;
+}
+
+.navigation-tab {
+    color: white;
+   margin-right: 20px;
+   padding-left: 20px;
+  }
+
+.secondary-navigation {
+    margin: 10px ;
+    padding-left: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.account-menu {
+    width: 100%;
+    right: 100%;
+    float: left;
+    margin-left: auto;
+    display: flex;  
+}
+
+
+.account-menu button {
+    width: 0%;
+    float: left;
+    padding: 7px 25px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+.account-menu i {
+    width: 20px;
+    height: 20px;
+    float: right; 
+}
+
+.serie-principal .container {
+    width: 50%;
+}
+
+.serie-principal {
+    background: linear-gradient(rgba(0, 0, 0, .50)100%);
+    width: 100vw;
+    height: 625px;
+    margin-left: auto;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.serie-principal .descricao {
+    margin-bottom: 40px;
+    margin-inline: 10px;
+    margin-top: 10px;
+}
+.container {
+    margin-left: 10px;
+    color: #fff;
+}
+.titulo {
+    font-size: 30px;
+    margin-top: -250px;
+    margin-inline: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    margin-right: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 5s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+    margin-top: 8px;
+    width: 20px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-series {
+    margin: 10px;
+    height: 80%;
+    width: 80%;
+    display: block
+}
